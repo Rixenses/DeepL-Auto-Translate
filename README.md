@@ -1,7 +1,7 @@
-# DeepL File Translator
-# 🙏 Credits / Kredit
-# Created by / Dibuat oleh:
-# Ariq S. F. 'Rixenses' Ibrahim
+# DeepL Auto Translate
+**Credits / Kredit**
+**Created by / Dibuat oleh:**
+**Ariq S. F. 'Rixenses' Ibrahim**
 **EN:** A simple, flexible toolkit to translate files using the DeepL API.  
 **ID:** Skrip sederhana dan fleksibel untuk menerjemahkan file menggunakan DeepL API.
 
