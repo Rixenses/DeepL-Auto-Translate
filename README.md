@@ -1,4 +1,5 @@
 # DeepL Auto Translate
+
 **EN:** A simple, flexible toolkit to translate files using the DeepL API.  
 **ID:** Skrip sederhana dan fleksibel untuk menerjemahkan file menggunakan DeepL API.
 ---
