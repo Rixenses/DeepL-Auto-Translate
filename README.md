@@ -1,11 +1,13 @@
 # DeepL Auto Translate
 
-**EN:** A simple, flexible toolkit to translate files using the DeepL API.  
+**EN:** A simple, flexible toolkit to translate files using the DeepL API.
 **ID:** Skrip sederhana dan fleksibel untuk menerjemahkan file menggunakan DeepL API.
+
 ---
 
 ## Created by / Dibuat oleh:
 - **Ariq S. F. 'Rixenses' Ibrahim**
+
 ---
 
 ## Features / Fitur
@@ -31,6 +33,7 @@
 - `requests`
 - `python-dotenv` (optional, for `.env`)
 
+---
 
 ## How to Run / Cara Menjalankan
 
@@ -106,3 +109,5 @@ python translate_text.py --path ./docs --ext .txt .md \
 Note / Catatan:
 For DeepL Pro, use --api-url https://api.deepl.com/v2/translate
 Untuk DeepL Pro, gunakan --api-url https://api.deepl.com/v2/translate
+
+---
