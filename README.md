@@ -1,7 +1,7 @@
 # DeepL Auto Translate
-**Credits / Kredit**
-**Created by / Dibuat oleh:**
-**Ariq S. F. 'Rixenses' Ibrahim**
+### Credits / Kredit
+#### Created by / Dibuat oleh:
+#### Ariq S. F. 'Rixenses' Ibrahim
 **EN:** A simple, flexible toolkit to translate files using the DeepL API.  
 **ID:** Skrip sederhana dan fleksibel untuk menerjemahkan file menggunakan DeepL API.
 
@@ -40,8 +40,8 @@
 
 ### [II] Running the scripts / Menjalankan skrip
 #### a) XML/HTML-like files
-# EN: Translates only text between tags, keeps tags intact.
-# ID: Hanya menerjemahkan teks di antara tag, tag tetap utuh.
+#### EN: Translates only text between tags, keeps tags intact.
+#### ID: Hanya menerjemahkan teks di antara tag, tag tetap utuh.
 #### Example/Contoh:
 python translate_xml.py --path ./source_folder --ext .xml .html \
     --target-lang ID --in-place --keep-comments
@@ -53,8 +53,8 @@ python translate_xml.py --path ./source_folder --ext .xml .html \
 --keep-comments → keep <!-- ... --> comments / biarkan komentar tetap.
 
 #### b) Plain text / Markdown
-# EN: Translates entire file content.
-# ID: Menerjemahkan seluruh isi file.
+#### EN: Translates entire file content.
+#### ID: Menerjemahkan seluruh isi file.
 #### Example/Contoh:
 bash
 Copy
@@ -65,8 +65,8 @@ python translate_text.py --path ./docs --ext .txt .md \
 --out-dir → output folder / folder hasil terjemahan.
 
 ### [III] Target Language Codes / Kode Bahasa Tujuan
-# EN: You can use the following codes:
-# ID: Anda bisa menggunakan kode bahasa berikut:
+#### EN: You can use the following codes:
+#### ID: Anda bisa menggunakan kode bahasa berikut:
 | Code  | Language / Bahasa                         |
 | ----- | ----------------------------------------- |
 | BG    | Bulgarian / Bulgaria                      |
