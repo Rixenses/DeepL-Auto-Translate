@@ -108,7 +108,8 @@ python translate_text.py --path ./docs --ext .txt .md \
 | ZH    | Chinese (Simplified) / Mandarin Sederhana |
 
 Note / Catatan:
-For DeepL Pro, use --api-url https://api.deepl.com/v2/translate
-Untuk DeepL Pro, gunakan --api-url https://api.deepl.com/v2/translate
+**EN:** For DeepL Pro, use --api-url https://api.deepl.com/v2/translate
+
+**ID:** Untuk DeepL Pro, gunakan --api-url https://api.deepl.com/v2/translate
 
 ---
