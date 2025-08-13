@@ -1,8 +1,8 @@
 # DeepL Auto Translate
 
-**EN:** A simple, flexible toolkit to translate files using the DeepL API.
+**(EN)** A simple, flexible toolkit to translate files using the DeepL API.
 
-**ID:** Skrip sederhana dan fleksibel untuk menerjemahkan file menggunakan DeepL API.
+**(ID)** Skrip sederhana dan fleksibel untuk menerjemahkan file menggunakan DeepL API.
 
 ---
 
@@ -13,18 +13,18 @@
 
 ## Features / Fitur
 
-- **EN:** Two CLIs:
+- **(EN)** Two CLIs:
   - `translate_xml.py`: translate only the text between tags (XML/HTML-like), preserve tags, optionally keep `<!-- ... -->` comments.
   - `translate_text.py`: translate entire text/Markdown files.
-- **ID:** Dua CLI:
+- **(ID)** Dua CLI:
   - `translate_xml.py`: hanya menerjemahkan teks di antara tag (XML/HTML-dll), tag tetap utuh, komentar `<!-- ... -->` bisa dibiarkan.
   - `translate_text.py`: menerjemahkan seluruh isi file teks/Markdown.
 
-- **EN:** Works on Windows/Mac/Linux, supports in-place editing (with `.bak` backup) or writing to an output directory.
-- **ID:** Berjalan di Windows/Mac/Linux, mendukung edit langsung (dengan cadangan `.bak`) atau tulis ke folder output.
+- **(EN)** Works on Windows/Mac/Linux, supports in-place editing (with `.bak` backup) or writing to an output directory.
+- **(ID)** Berjalan di Windows/Mac/Linux, mendukung edit langsung (dengan cadangan `.bak`) atau tulis ke folder output.
 
-- **EN:** Chunking, retry with exponential backoff, simple rate limiting.
-- **ID:** Pemecahan teks, retry dengan backoff eksponensial, dan pembatasan laju sederhana.
+- **(EN)** Chunking, retry with exponential backoff, simple rate limiting.
+- **(ID)** Pemecahan teks, retry dengan backoff eksponensial, dan pembatasan laju sederhana.
 
 ---
 
@@ -45,8 +45,8 @@
 
 ### [II] Running the scripts / Menjalankan skrip
 #### a) XML/HTML-like files
-#### EN: Translates only text between tags, keeps tags intact.
-#### ID: Hanya menerjemahkan teks di antara tag, tag tetap utuh.
+#### (EN) Translates only text between tags, keeps tags intact.
+#### (ID) Hanya menerjemahkan teks di antara tag, tag tetap utuh.
 #### Example/Contoh:
 python translate_xml.py --path ./source_folder --ext .xml .html \
     --target-lang ID --in-place --keep-comments
@@ -58,8 +58,8 @@ python translate_xml.py --path ./source_folder --ext .xml .html \
 --keep-comments → keep <!-- ... --> comments / biarkan komentar tetap.
 
 #### b) Plain text / Markdown
-#### EN: Translates entire file content.
-#### ID: Menerjemahkan seluruh isi file.
+#### (EN) Translates entire file content.
+#### (ID) Menerjemahkan seluruh isi file.
 #### Example/Contoh:
 bash
 Copy
@@ -70,8 +70,8 @@ python translate_text.py --path ./docs --ext .txt .md \
 --out-dir → output folder / folder hasil terjemahan.
 
 ### [III] Target Language Codes / Kode Bahasa Tujuan
-#### EN: You can use the following codes:
-#### ID: Anda bisa menggunakan kode bahasa berikut:
+#### (EN) You can use the following codes:
+#### (ID) Anda bisa menggunakan kode bahasa berikut:
 | Code  | Language / Bahasa                         |
 | ----- | ----------------------------------------- |
 | BG    | Bulgarian / Bulgaria                      |
@@ -108,8 +108,9 @@ python translate_text.py --path ./docs --ext .txt .md \
 | ZH    | Chinese (Simplified) / Mandarin Sederhana |
 
 Note / Catatan:
-**EN:** For DeepL Pro, use --api-url https://api.deepl.com/v2/translate
 
-**ID:** Untuk DeepL Pro, gunakan --api-url https://api.deepl.com/v2/translate
+**(EN)** For DeepL Pro, use --api-url https://api.deepl.com/v2/translate
+
+**(ID)** Untuk DeepL Pro, gunakan --api-url https://api.deepl.com/v2/translate
 
 ---
