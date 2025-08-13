@@ -1,2 +1,3 @@
 # DeepL-Auto-Translate
-Python script for translating text files using DeepL APIScript Python untuk menerjemahkan file teks menggunakan DeepL API.
+(EN: Python script for translating text files using DeepL API)
+(ID: Script Python untuk menerjemahkan file teks menggunakan DeepL API.)
